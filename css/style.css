@@ -1,0 +1,38 @@
+/* This is
+a multi-line
+comment 
+body,
+body * {
+    color: rgb(0, 0, 0);
+}
+*/
+#menu ul{
+  list-style: none;
+}
+#menu li{
+  display: inline;
+}
+	
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* <!--Source - https://stackoverflow.com/a/7961750
+Posted by Nicolas Modrzyk, modified by community. See post 'Timeline' for change history
+Retrieved 2026-10-26, License - CC BY-SA 3.0
+--> */
+
+ @font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
+ @font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');}
+
+h3 { font-family: Delicious, sans-serif; }
+ 
+ 

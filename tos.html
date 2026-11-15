@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | Bharat Madho</title>
+
+    <style>
+        
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgb(24, 21, 201);
+        }
+
+
+        .agreement {
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 2px solid #ddd;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            background: #2269CE;
+            color: white;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:disabled {
+            background: #999;
+            cursor: not-allowed;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body class="">
+
+<div class="container">
+    <h1 class="">Terms of Service</h1>
+
+    <p>
+        Welcome to the Bharat Madho website. By accessing or using this website,
+        you agree to be bound by these Terms of Service. If you do not agree with
+        any part of these terms, please discontinue use of the website immediately.
+    </p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>
+        By visiting, browsing, or interacting with this website, you acknowledge
+        that you have read, understood, and agreed to these Terms of Service and
+        any applicable laws and regulations.
+    </p>
+
+    <h2>2. Use of the Website</h2>
+    <p>
+        You agree to use this website only for lawful purposes. You must not use
+        the website in any manner that could harm, disable, overburden, or impair
+        the website or interfere with any other party's use of the website.
+    </p>
+
+    <h2>3. Intellectual Property</h2>
+    <p>
+        All content on this website, including text, graphics, code, logos,
+        designs, projects, images, and other materials, is the intellectual
+        property of Bharat Madho unless otherwise stated.
+    </p>
+
+    <p>
+        You may not copy, reproduce, distribute, modify, or exploit any content
+        without prior written permission.
+    </p>
+
+    <h2>4. User Conduct</h2>
+    <p>
+        You agree not to:
+    </p>
+
+    <ul style="margin-left: 30px;">
+        <li>Attempt unauthorized access to any part of the website.</li>
+        <li>Use the site for fraudulent or malicious purposes.</li>
+        <li>Upload harmful software or malicious code.</li>
+        <li>Collect data from the website without permission.</li>
+        <li>Violate any applicable laws while using the site.</li>
+    </ul>
+
+    <h2>5. Content Accuracy</h2>
+    <p>
+        While reasonable efforts are made to keep content current and accurate,
+        no guarantee is provided regarding completeness, reliability, or accuracy.
+        Information may be modified, updated, or removed without notice.
+    </p>
+
+    <h2>6. External Links</h2>
+    <p>
+        This website may contain links to third-party websites. These links are
+        provided for convenience only, and Bharat Madho is not responsible for
+        the content, services, or policies of external websites.
+    </p>
+
+    <h2>7. Limitation of Liability</h2>
+    <p>
+        Bharat Madho shall not be liable for any direct, indirect, incidental,
+        consequential, or special damages arising from the use of or inability to
+        use this website.
+    </p>
+
+    <h2>8. Privacy</h2>
+    <p>
+        Information submitted through this website may be collected and processed
+        in accordance with applicable privacy laws and the website's privacy
+        practices.
+    </p>
+
+    <h2>9. Changes to the Terms</h2>
+    <p>
+        These Terms of Service may be updated from time to time without prior
+        notice. Continued use of the website after changes are published
+        constitutes acceptance of the revised terms.
+    </p>
+
+    <h2>10. Termination</h2>
+    <p>
+        Access to this website may be restricted, suspended, or terminated at any
+        time if a user violates these Terms of Service or engages in conduct
+        considered harmful to the website or its owner.
+    </p>
+
+    <h2>11. Governing Law</h2>
+    <p>
+        These terms shall be governed by and interpreted in accordance with
+        applicable laws. Any disputes shall be resolved through the appropriate
+        legal channels within the relevant jurisdiction.
+    </p>
+
+    <h2>12. Contact</h2>
+    <p>
+        Questions regarding these Terms of Service may be directed through the
+        contact methods provided elsewhere on this website.
+    </p>
+
+    <div class="agreement">
+        <input type="checkbox" id="agree">
+        <label for="agree">
+            I have read and agree to the Terms of Service.
+        </label>
+
+        <br>
+
+        <button id="continueBtn" disabled>
+            Continue
+        </button>
+    </div>
+
+    <footer>
+        © 2026 Bharat Madho. All rights reserved.
+    </footer>
+</div>
+
+<script>
+    const agreeBox = document.getElementById("agree");
+    const continueBtn = document.getElementById("continueBtn");
+
+    agreeBox.addEventListener("change", function () {
+        continueBtn.disabled = !this.checked;
+    });
+
+    continueBtn.addEventListener("click", function () {
+        alert("Thank you for accepting the Terms of Service.");
+    });
+</script>
+
+</body>
+</html>
