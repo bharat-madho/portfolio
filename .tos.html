@@ -58,9 +58,13 @@
 
     <header class="flex tracking-tighter font-mono gap-4 justify-between p-1 md:p-4 bg-gradient-to-r from-white-100 via-blue-400 to-sky-200">
         <a rel="noopener noreferrer" href="index.html" ><img src="assets/logo2.png" class="w-34 h-12 md:w-48 md:h-16 m-2" alt="logo Bharat"></a>
-        <nav class="hidden sm:block md:text-2xl">
-            
-            <div id="menu" class="no-underline flex p-4 gap-2 ">
+
+        <input type="checkbox" id="menu-knop" class="peer sr-only" />
+        
+        
+        
+        <nav class="hidden peer-checked:block sm:block md:text-2xl flex flex-cols text-center" aria-label="Hoofdmenu">    
+            <div id="menu" class="no-underline  p-4 gap-2  ">
             <ul class="">
             <li class="px-1 block rounded-sm hover:bg-sky-200 hover:underline"><a href="index.html">Home</a></li>
             <li class="px-1 block rounded-sm hover:bg-sky-200 hover:underline"><a href="project.html">Project</a></li>
@@ -70,6 +74,7 @@
             </div>    
 
         </nav>
+        <label for="menu-knop" class="cursor-pointer rounded-xl border border-[#043DCD] peer-focus-visible:outline-2 sm:hidden w-8 h-8 text-center mt- bg-sky-50 text-sm">Menu</label>
     </header>
 
 
