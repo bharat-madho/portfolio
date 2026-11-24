@@ -13,7 +13,7 @@
 <body>
     <header class="flex tracking-tighter font-mono gap-4 justify-between p-1 md:p-4 bg-gradient-to-r from-white-100 via-blue-400 to-sky-200">
         <a rel="noopener noreferrer" href="index.html" >
-            <svg class="w-34 h-12 md:w-48 md:h-16 m-2" alt="logo Bharat" version="1.0" xmlns="http://www.w3.org/2000/svg"
+            <svg class="w-34 h-12 md:w-48 md:h-16" alt="logo Bharat" version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="866.000000pt" height="288.000000pt" viewBox="0 0 866.000000 288.000000"
  preserveAspectRatio="xMidYMid meet">
 
@@ -78,12 +78,12 @@ c13 20 33 54 46 75 l23 37 -274 0 c-253 0 -276 -1 -313 -20z"/>
         
         
         <nav class="hidden peer-checked:block sm:block md:text-2xl flex flex-cols text-center" aria-label="Hoofdmenu">    
-            <div id="menu" class="no-underline p-4 gap-2  ">
-            <ul class="ju">
-            <li class="px-1 block rounded-sm hover:bg-sky-200 hover:underline"><a href="index.html">Home</a></li>
-            <li class="px-1 block rounded-sm hover:bg-sky-200 hover:underline"><a href="project.html">Project</a></li>
-            <li class="px-1 block rounded-sm hover:bg-sky-200 hover:underline"><a href="portfolio.html">Portfolio</a></li>
-            <li class="px-1 block rounded-sm hover:bg-sky-200 underline"><a href="contact.html" aria-current="page">Contact</a></li>
+            <div id="menu" class="no-underline p-4 gap-2">
+            <ul>
+            <li class="relative after:bg-blue-800 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 delay-125 duration-400 px-1 block rounded-sm hover:bg-sky-200"><a href="index.html">Home</a></li>
+            <li class="relative after:bg-blue-800 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 delay-215 duration-400 px-1 block rounded-sm hover:bg-sky-200"><a href="project.html">Project</a></li>
+            <li class="relative after:bg-blue-800 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 delay-125 duration-400 px-1 block rounded-sm hover:bg-sky-200"><a href="portfolio.html">Portfolio</a></li>
+            <li class="delay-125 duration-400 px-1 block rounded-sm hover:bg-sky-200 relative after:bg-blue-800 after:absolute after:h-1 after:bottom-0 after:left-0 after:w-full after:transition-all after:duration-300"><a href="contact.html" aria-current="page">Contact</a></li>
             </ul>
             </div>    
 
@@ -99,26 +99,24 @@ c13 20 33 54 46 75 l23 37 -274 0 c-253 0 -276 -1 -313 -20z"/>
 
     <main class="mb-0 md:mb-20">
 
-    <style>
-      @font-face { font-family: IBMPlexSans; src: url('assets/IBMPlexSans-Regular.woff2')} 
-      h1 {
-         font-family: IBMPlexSans
-      }
-    </style>
 
-        <h1 class="bg-[#DBE5FF] text-[#043DCD] px-12 py-12  text-6xl text-center md:text-left rounded-lg  sm:rounded-none mt-4 mb-2">Contact</h1>
+
+        <h1 class="ibm-font bg-[#DBE5FF] text-[#043DCD] px-12 py-12 text-6xl text-center md:text-left rounded-lg sm:rounded-none mt-4 mb-2">Contact</h1>
         
     <div class="grid grid-cols-1 md:grid-cols-3 gap-1 sm:gap-2 lg:gap-4 xl:gap-12 sm:m-2 md:mx-4">
-       <div class="md:col-start-1 md:col-end-3 bg-sky-100 p-2 rounded-lg sm:rounded-sm shadow-xl flex items-center justify-between flex-col md:pt-19 py-0">
+       <div class="md:col-start-1 md:col-end-3 bg-sky-100 p-2 rounded-lg sm:rounded-sm shadow-xl flex items-center justify-between flex-col md:pt-15.5 py-0">
             <div class="text-center m-3">
                     
-                    <p class="py-4 text-xl font-bold hidden md:block">Heeft u vragen over mijn portfolio, projecten of IT-vaardigheden? Neem gerust contact met mij op via een van de onderstaande kanalen of stuur een bericht via het contactformulier</p>
-                    <div class="grid md:grid-cols-3 grid-cols-3 md:py-12 py-4">
+                    <p class="py-4 text-xl font-bold hidden md:block ">Heeft u vragen over mijn portfolio, projecten of IT-vaardigheden? Neem gerust contact met mij op via een van de onderstaande kanalen of stuur een bericht via het contactformulier</p>
+
+
+                    <div class="flex md:flex-cols-3 flex-cols-3 justify-center text-center md:py-12 py-4">
+                    
                     <a class="flex flex-col flex-wrap text-sm lg:text-xl"> <img src="assets/wired-flat-18-location-pin.svg" class="h-12 m-4" alt="pin logo" aria-hidden="true">Antwepen</a>
                     
-                    <a class="flex flex-col flex-wrap text-sm lg:text-xl" href="mailto:bharat.madho@student.ap.be"> <img src="assets/email-1.svg" class="h-12 m-4" alt="mail logo" aria-hidden="true">Email</a>
-                    <!-- whatsapp -->
-                    <a class="flex flex-col  text-sm lg:text-xl" href="https://wa.me/qr/4MSDXUIKOG4NI1" target="_blank" rel="noopener" role="button"> <img src="assets/whatsapp.svg" class="h-12 m-4" alt="whatsapp icon" aria-hidden="false">Whatsapp</a>
+                    <a class="md:mx-48 flex flex-col flex-wrap text-sm lg:text-xl" href="mailto:bharat.madho@student.ap.be"> <img src="assets/email-1.svg" class="h-12 m-4" alt="mail logo" aria-hidden="true">Email</a>
+                    
+                    <a class="flex flex-col text-sm lg:text-xl" href="https://wa.me/qr/4MSDXUIKOG4NI1" target="_blank" rel="noopener" role="button"> <img src="assets/whatsapp.svg" class="h-12 m-4" alt="whatsapp icon" aria-hidden="false">Whatsapp</a>
                     
                     </div>
                     <div class="border">
@@ -128,8 +126,8 @@ c13 20 33 54 46 75 l23 37 -274 0 c-253 0 -276 -1 -313 -20z"/>
             
         </div>
 
-        <aside class="md:col-start-3  bg-sky-100 p-2 rounded-lg sm:rounded-sm shadow-xl">
-            <div class="text-center flex items-center justify-center flex-col m-4" id="form">
+        <aside class="md:col-start-3 bg-sky-100 p-2 rounded-lg sm:rounded-sm shadow-xl">
+            <div class="text-center flex items-center justify-center flex-col" id="form">
                 <a class="inline-flex items-center gap-2 rounded-lg px-4 py-2"> 
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50.000000pt" height="50.000000pt" viewBox="0 0 500.000000 500.000000"  aria-hidden="true" preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"> <path fill="#2F6DFF" d="M1491 3753 l0 -88 181 -125 182 -125 505 -5 506 -5 55 -26 c102 -49 171 -142 186 -251 10 -75 -25 -176 -84 -235 -64 -66 -126 -93 -228 -101 l-82 -7 46 -32 c257 -174 455 -313 494 -345 105 -87 146 -254 99 -407 -41 -135 -153 -245 -290 -285 -46 -14 -119 -16 -464 -16 l-409 0 -122 -82 c-66 -45 -173 -118 -236 -162 -63 -45 -148 -103 -189 -131 l-73 -50 718 -3 c403 -1 756 2 804 7 283 31 502 213 593 489 18 56 22 89 21 202 -1 127 -3 140 -33 222 -58 156 -157 276 -297 364 l-75 46 59 54 c73 66 136 161 169 256 21 60 26 92 26 178 1 119 -12 191 -53 290 -80 194 -262 359 -465 424 -105 33 -180 36 -862 36 l-683 0 1 -87z"/> <path fill="#3767C7" d="M1480 3226 l0 -265 151 -107 c83 -58 179 -125 213 -147 33 -22 127 -87 207 -143 80 -57 186 -132 237 -166 50 -35 180 -125 289 -201 490 -342 483 -338 533 -331 61 9 86 19 131 55 80 63 102 178 53 277 -33 66 -50 81 -300 252 -115 79 -256 177 -314 217 -58 39 -159 109 -225 154 -66 45 -154 106 -195 134 -413 286 -638 440 -702 484 l-78 52 0 -265z"/><path fill="#3666C6" d="M1480 2087 c0 -388 3 -708 8 -710 6 -5 64 43 330 275 l102 89 0 369 0 369 -117 83 c-65 46 -149 106 -188 133 -38 27 -85 60 -102 73 l-33 24 0 -705z"/></g>
                 </svg>
@@ -137,23 +135,26 @@ c13 20 33 54 46 75 l23 37 -274 0 c-253 0 -276 -1 -313 -20z"/>
                 </a>
                 
                     <p class="text-xl font-bold"><a href="#form">Laat een bericht achter of plan uw afspraak</a></p>
-                    <form method="POST" data-netlify="true" name="formulier" class=" mt-12">
+                    <form method="POST" data-netlify="true" name="formulier" class="mt-12">
                         <div class="space-y-0 md:space-y-4">
-                        <div><label for="onderwerp" class="font-semibold after:ml-0.5 after:text-red-500 after:content-['*']">waarover gaat uw vraag?</label>
+                        <div><label for="onderwerp" class="font-semibold">Waarover gaat uw vraag?</label>
+                        <a class="text-red-500 font-bold font-mono">&nbsp;&#42;</a>
                             <br>
-                            <select id="onderwerp" name="onderwerp" class="peer mt-1 w-full rounded-md px-3 py-2 user-invalid:border-red-700 user-invalid:shadow-red-700 user-invalid:shadow-2xl border border-sky-400 after:ml-0.5 after:text-red-500 after:content-['*']user-valid:borded-green-700 text-black">
+                            <select id="onderwerp" name="onderwerp" required aria-required="true" class="peer mt-1 w-full rounded-md px-3 py-2 user-invalid:border-red-700 user-invalid:shadow-red-700 user-invalid:shadow-2xl border border-sky-400 after:ml-0.5 after:text-red-500 after:content-['*']user-valid:borded-green-700 text-black">
                             <option value="" class="hover:text-gray-500" selected disabled>Selecteer een onderwerp</option>
                             <option value="afspraak" class="">Plan een afspraak</option>
                             <option value="project" class="">Factuur</option>
                             <option value="les">placeholder</option>
                             </select>
                         </div>
-                        <p><label for="naam" class="font-semibold after:ml-0.5 after:text-red-500 after:content-['*']">naam</label>
+                        <p><label for="naam" class="font-semibold">Naam</label>
+                        <a class="text-red-500 font-bold font-mono">&nbsp;&#42;</a>        
                         <br>
-                        <input type="text" id="naam" name="naam" class="peer mt-1 w-full rounded-md px-3 py-2 user-invalid:border-red-700 user-invalid:shadow-red-700 user-invalid:shadow-2xl border border-sky-400 user-valid:borded-green-700 " placeholder="Voornaam Achternaam"></p>
+                        <input required aria-required="true" type="text" id="naam" name="naam" class="peer mt-1 w-full rounded-md px-3 py-2 user-invalid:border-red-700 user-invalid:shadow-red-700 user-invalid:shadow-2xl border border-sky-400 user-valid:borded-green-700 " placeholder="Voornaam Achternaam"></p>
                         <p><label>
-                        <span class="font-semibold after:ml-0.5 after:text-red-500 after:content-['*']">email</span>
-                        <input type="email" id="mail" name="email" required autocomplete="email" aria-describedby="mail-hulp" class="peer mt-1 w-full rounded-md px-3 py-2  user-invalid:border-red-700 user-invalid:shadow-red-700 user-invalid:shadow-2xl border border-sky-400 user-valid:borded-green-700" placeholder="naam@voorbeeld.com" />
+                        <span class="font-semibold">E-mailadres</span>
+                        <a class="text-red-500 font-bold font-mono">&nbsp;&#42;</a>        
+                        <input type="email" id="mail" name="email" required aria-required="true" autocomplete="email" aria-describedby="mail-hulp" class="peer mt-1 w-full rounded-md px-3 py-2  user-invalid:border-red-700 user-invalid:shadow-red-700 user-invalid:shadow-2xl border border-sky-400 user-valid:borded-green-700" placeholder="naam@voorbeeld.com" />
                         </label>
                         <br>
                         </p>
@@ -164,18 +165,29 @@ c13 20 33 54 46 75 l23 37 -274 0 c-253 0 -276 -1 -313 -20z"/>
                         <br>
                         <input type="date" id="datum" name="datum" class="text-black hover:text-gray-500 peer mt-1 w-full rounded-md px-3 py-2 user-invalid:border-red-700 user-invalid:shadow-red-700 user-invalid:shadow-2xl border border-sky-400 user-valid:borded-green-700"></p>
                         <fieldset>
-                        <p>Hoe wilt u antwoord krijgen?</p>
-                        <p><input type="checkbox" id="via-tel" name="antwoord" value="telefoon"><label
+                        <p class="font-bold">Hoe wilt u antwoord krijgen?</p>
+                        <p class="my-2"><input type="checkbox" id="via-tel" name="antwoord" value="telefoon" class="cursor-pointer checked:ring-sky-200 ring-0 checked:ring-2 accent-[#043DCD]"><label
                         for="via-tel" class="hover:underline px-1">per telefoon</label></p>
+                        <p><input type="checkbox" id="via-tel" name="antwoord" value="telefoon" class="cursor-pointer checked:ring-sky-200 ring-0 checked:ring-2 accent-[#043DCD]"><label
+                        for="via-tel" class="hover:underline px-1">per email</label></p>
                         </fieldset>
                         <p>
-                        <label for="bericht">uw vraag</label><br>
-                        <textarea id="bericht" name="bericht" rows="8" cols="80" class="peer mt-1 w-full rounded-md px-3 py-2 user-invalid:border-red-700 user-invalid:shadow-red-700 user-invalid:shadow-2xl border border-sky-400 user-valid:borded-green-700">
+                        <label class="font-bold" for="bericht">Uw vraag</label><br>
+                        <textarea id="bericht" name="bericht" rows="6" cols="48" class="peer mt-1 w-full rounded-md px-3 py-2 user-invalid:border-red-700 user-invalid:shadow-red-700 user-invalid:shadow-2xl border border-sky-400 user-valid:borded-green-700">
                         </textarea>
                         </p>
-                        <p><input type="checkbox" id="kopie" name="kopie" value="ja"> <label for="kopie">stuur mij een kopie</label></p>
-                        <button class="inline-flex items-center gap-2 rounded-lg bg-blue-700 px-4 py-2 mt-2 text-white hover:bg-[#043DCD]" type="submit">Verstuur  
-                        </button>
+                        
+                        <div class="text-center flex items-center justify-center flex-col m-4">
+                            <label for="accept" class="peer">
+                                <input type="checkbox" id="accept" name="accept" value="ja" required aria-required="true" class="cursor-pointer checked:ring-sky-200 ring-0 checked:ring-2 accent-[#043DCD]">
+                                Ik aanvaard de <a class="underline" href="tos.html">servicevoorwaarden</a>
+                                <a class="" href="tos.html">&#9432;</a><a class="text-red-500 font-bold font-mono">&nbsp;&#42;</a>        
+                            </label>
+                        
+                        
+                            <button class="cursor-pointer hidden transition-all not-peer-has-checked:opacity-0 peer-has-checked:block items-center rounded-lg px-4 py-2 mt-4 text-white bg-blue-600 delay-150 duration-300 ease-in-out hover:-translate-y-2 hover:scale-120 hover:bg-[#043DCD]" type="submit">Verstuur  
+                            </button>
+                        </div>
                     </form>
 
                 </div>

@@ -13,7 +13,7 @@
 <body>
     <header class="flex tracking-tighter font-mono gap-4 justify-between p-1 md:p-4 bg-gradient-to-r from-white-100 via-blue-400 to-sky-200">
         <a rel="noopener noreferrer" href="index.html" >
-            <svg class="w-34 h-12 md:w-48 md:h-16 m-2" alt="logo Bharat" version="1.0" xmlns="http://www.w3.org/2000/svg"
+            <svg class="w-34 h-12 md:w-48 md:h-16" alt="logo Bharat" version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="866.000000pt" height="288.000000pt" viewBox="0 0 866.000000 288.000000"
  preserveAspectRatio="xMidYMid meet">
 
@@ -80,10 +80,10 @@ c13 20 33 54 46 75 l23 37 -274 0 c-253 0 -276 -1 -313 -20z"/>
         <nav class="hidden peer-checked:block sm:block md:text-2xl flex flex-cols text-center" aria-label="Hoofdmenu">    
             <div id="menu" class="no-underline p-4 gap-2  ">
             <ul class="ju">
-            <li class="px-1 block rounded-sm hover:bg-sky-200 hover:underline"><a href="index.html">Home</a></li>
-            <li class="px-1 block rounded-sm hover:bg-sky-200 hover:underline"><a href="project.html">Project</a></li>
-            <li class="px-1 block rounded-sm hover:bg-sky-200 underline"><a href="portfolio.html">Portfolio</a></li>
-            <li class="px-1 block rounded-sm hover:bg-sky-200 hover:underline"><a href="contact.html" aria-current="page">Contact</a></li>
+            <li class="delay-125 duration-400 px-1 block rounded-sm hover:bg-sky-200 relative after:bg-blue-800 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300"><a href="index.html">Home</a></li>
+            <li class="delay-125 duration-400 px-1 block rounded-sm hover:bg-sky-200 relative after:bg-blue-800 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300"><a href="project.html">Project</a></li>
+            <li class="delay-125 duration-400 px-1 block rounded-sm hover:bg-sky-200 relative after:bg-blue-800 after:absolute after:h-1 after:bottom-0 after:left-0 after:w-full after:transition-all after:duration-300"><a href="contact.html"><a href="portfolio.html">Portfolio</a></li>
+            <li class="delay-125 duration-400 px-1 block rounded-sm hover:bg-sky-200 relative after:bg-blue-800 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300"><a href="contact.html" aria-current="page">Contact</a></li>
             </ul>
             </div>    
 
@@ -101,14 +101,9 @@ c13 20 33 54 46 75 l23 37 -274 0 c-253 0 -276 -1 -313 -20z"/>
 
     <main class="mb-0 md:mb-20">
 
-    <style>
-      @font-face { font-family: IBMPlexSans; src: url('assets/IBMPlexSans-Regular.woff2')} 
-      h1 {
-         font-family: IBMPlexSans
-      }
-    </style>
 
-        <h1 class="bg-[#DBE5FF] text-[#043DCD] px-12 py-12  text-6xl text-center md:text-left rounded-lg  sm:rounded-none mt-4 mb-2">Portfolio</h1>
+
+        <h1 class="ibm-font bg-[#DBE5FF] text-[#043DCD] px-12 py-12  text-6xl text-center md:text-left rounded-lg  sm:rounded-none mt-4 mb-2">Portfolio</h1>
         
     <div class="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-6 gap-1 sm:gap-2 lg:gap-4 xl:gap-12 sm:m-2 md:mx-4">
         <div class="xl:col-span-2 md:col-span-5 col-start-1 col-end-3 bg-sky-200 p-2 rounded-lg sm:rounded-sm shadow-xl flex items-center justify-between flex-col md:py-4 py-0">   
@@ -129,7 +124,7 @@ c13 20 33 54 46 75 l23 37 -274 0 c-253 0 -276 -1 -313 -20z"/>
             
             <div class="grid grid-cols-3 my-4 bg-sky-300 md:shadow-xl">
             <div class="col-span-1">
-                <a href="project.html"><img src="assets/navi.png" class="rounded-sm md:h-24 h-full w-96 object-cover" alt="p1">
+                <a href="project.html"><img src="assets/navi.png" class="rounded-sm md:h-24 h-full w-96 md:object-cover" alt="p1">
             </div>
             <div class="col-span-2 pl-4 h-full">
               <h2 class="text-left font-bold">Music streaming serivce</h2>
@@ -212,13 +207,15 @@ c13 20 33 54 46 75 l23 37 -274 0 c-253 0 -276 -1 -313 -20z"/>
     
 
         <aside class="bg-sky-100 p-2 rounded-lg sm:rounded-sm shadow-xl">
-            <div class="text-center grid grid-cols-1 md:py-12 py-4" role="navigation ">
+            <div class="text-center grid grid-cols-1 md:py-12 py-4" role="navigation">
                     <!-- Linktree -->
-                    <a class="flex flex-col flex-wrap text-sm lg:text-xl" href="https://linktr.ee/Bharat_Madho"> <img src="assets/share.svg" class="h-12 m-4" alt="share logo" aria-hidden="true">Social media</a>
+                    <a class="flex flex-col flex-wrap text-sm lg:text-xl" href="https://linktr.ee/Bharat_Madho" target="_blank" rel="noopener" role="button"> <img src="assets/share.svg" class="h-12 md:h-24 m-4" alt="share logo" aria-hidden="true">Social media</a>
                     <!-- 24 hour DJ set -->
-                    <a class="py-12 flex flex-col  text-sm lg:text-xl" href="https://youtube.com/playlist?list=PLMBWr3sifZU2U33Jy0vpYr0kuisDgreV_" target="_blank" rel="noopener" role="button"> <img src="assets/playlist.svg" class="h-12 m-4" alt="mail logo" aria-hidden="false">Liveset playlist</a>
+                    <a class="py-12 flex flex-col  text-sm lg:text-xl" href="https://youtube.com/playlist?list=PLMBWr3sifZU2U33Jy0vpYr0kuisDgreV_" target="_blank" rel="noopener" role="button"> <img src="assets/playlist.svg" class="h-12 md:h-24 m-4" alt="mail logo" aria-hidden="false">Liveset playlist</a>
                     <!-- SoundCloud mixes and tracks -->                
-                    <a class="flex flex-col text-sm lg:text-xl" href="https://soundcloud.com/bharatmadhoo" target="_blank" rel="noopener" role="button"> <img src="assets/soundcloud.svg" class="h-12 m-4" alt="soundcloud icon" aria-hidden="false">SoundCloud pagina</a>
+                    <a class="flex flex-col text-sm lg:text-xl" href="https://soundcloud.com/bharatmadho" target="_blank" rel="noopener" role="button"> <img src="assets/soundcloud.svg" class="h-12 md:h-24 m-4" alt="soundcloud icon" aria-hidden="false">SoundCloud pagina</a>
+                    <!-- GitHub Portfolio -->                
+                    <a class="flex flex-col text-sm lg:text-xl" href="https://github.com/bharat-madho/portfolio" target="_blank" rel="noopener" role="button"> <img src="assets/github.svg" class="h-12 md:h-24 m-4" alt="soundcloud icon" aria-hidden="false">GitHub Portfolio</a>
 
                     
 
