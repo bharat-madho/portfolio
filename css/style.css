@@ -8,7 +8,7 @@
  
  @font-face {
     font-family: 'IBMPlexSans';
-    src: url('assets/IBMPlexSans-Regular.woff2') format('woff2');
+    src: url('../assets/IBMPlexSans-Regular.woff2') format('woff2');
 }
 
 .ibm-font {
